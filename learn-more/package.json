@@ -6,7 +6,9 @@
     "next": "^7.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-material-design": "^0.4.3",
     "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
     "react-scripts": "2.0.4",
     "redux": "^4.0.0"
   },
@@ -17,7 +19,8 @@
     "eject": "react-scripts eject",
     "dev": "next",
     "build-next": "next build",
-    "start-next": "next start"
+    "start-next": "next start",
+    "start-electron": "electron ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,6 +32,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "electron": "^4.0.0-nightly.20181006",
     "redux-devtools": "^3.4.1"
   }
 }
